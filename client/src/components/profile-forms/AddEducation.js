@@ -36,7 +36,6 @@ const AddEducation = ({ addEducation }) => {
         className="form"
         onSubmit={(e) => {
           e.preventDefault();
-          console.log(formData);
           addEducation(formData, navigate);
         }}
       >

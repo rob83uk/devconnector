@@ -9,7 +9,7 @@ const ProfileEducation = ({
     <h3 className="text-dark">{school}</h3>
     <p>
       <Moment format="DD/MM/YYYY">{from}</Moment> -{' '}
-      {!to ? 'Now' : <Moment format="DD/MM/YYYY">{from}</Moment>}
+      {!to ? 'Now' : <Moment format="DD/MM/YYYY">{to}</Moment>}
     </p>
     <p>
       <strong>Degree: </strong>
